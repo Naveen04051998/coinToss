@@ -1,0 +1,88 @@
+/* Write your CSS here */
+@media screen and (min-width: 500px) {
+  .container-1 {
+    background-image: linear-gradient(#e2a139, #f9d423);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10x;
+  }
+  .container-2 {
+    background-color: #ffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon {
+    height: 120px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    color: black;
+    font-size: 20px;
+    font-family: 'roboto';
+    margin: 10px;
+    padding: 10px;
+    font-weight: 400;
+  }
+  .main-heading {
+    color: #e2a139;
+    font-size: 35px;
+    font-family: 'roboto';
+    margin: 10px;
+    padding: 10px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .heading-2 {
+    color: black;
+    font-size: 25px;
+    font-family: 'roboto';
+    margin: 10px;
+    padding: 10px;
+    font-weight: 500;
+  }
+  .container-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .button {
+    background-color: #f9d423;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border-width: 0px;
+  }
+  .coin-img-1 {
+    background-image: 'https://assets.ccbp.in/frontend/react-js/heads-img.png';
+    height: 120px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+
+    border-width: 0px;
+  }
+  .coin-img-2 {
+    background-image: 'https://assets.ccbp.in/frontend/react-js/heads-img.png';
+    height: 120px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+
+    border-width: 0px;
+  }
+}
